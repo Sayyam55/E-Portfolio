@@ -35,6 +35,12 @@ li {
   flex: 1;
 }
 
+
+.container {
+  padding: 50px 0;
+}
+
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -46,6 +52,16 @@ li {
   color: #6030b1;
 
 }
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+
+.section__title {
+  margin-bottom: 20px;
+}
+
 
 nav {
     height: 100px;
@@ -151,4 +167,17 @@ nav {
 
 .about-me__img {
 width: 100%;
+}
+
+
+.language__Img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language__Img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
 }
