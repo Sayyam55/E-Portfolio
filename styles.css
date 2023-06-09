@@ -341,7 +341,7 @@ nav {
    background-color: #242424;
  }
 
- .footer_social--list {
+ .footer__social--list {
   width: 100%; 
   max-width: 500px;
   display: flex;
@@ -359,12 +359,12 @@ nav {
    
 
  .footer__logo--img {
-   width: 100px;
+   width: 70px;
    height: 70px;
   }
  
 
-.footer_social--link,
+.footer__social--link,
 .footer__copyright,
 .footer__logo--popper {
    color: #fff;
